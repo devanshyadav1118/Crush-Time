@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="audio.css">
+</head>
+<body id="body">
+  <div class="pyro" id="pyro">
+    <div class="before"></div>
+    <div class="after"></div>
+  </div>
+  <div class="audio-menu" id="audio-menu">
+    <center>
+      <h3>Play music</h3>
+    </center>
+    <audio id="audio" src="snap.mp3" loop></audio> 
+    <center>
+      <div class="play-button-outer center">
+        <input class="play-button" type="button" value="PLAY" onclick="play()"> 
+      </div>
+    </center>
+  </div>
+
+  <div>
+    <center>
+      <h1 class="title">Can we hang out sometime?</h1>
+      <!-- <p>Provo te shtypesh No</p> -->
+    </center>
+    <img src="https://media.tenor.com/5FAYuypOiKcAAAAM/cat-please.gif" class="center shake-easy-anim" id="cat">
+    <br>
+    <center>
+      <button id="yes-btn">Yes</button>
+      <br>
+      <button id="no-btn">No</button>
+    </center>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.1/howler.min.js"></script>
+  
+  <script src="index.js"></script>
+  <script src="audio.js"></script>
+</body>
+</html>
